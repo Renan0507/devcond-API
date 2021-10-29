@@ -136,8 +136,3 @@ class AuthController extends Controller
         return $array;
     }
 }
-
-
-// $array = ['error' => ''];
-
-// return $array;
