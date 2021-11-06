@@ -45,10 +45,10 @@
  - 20 - Remover veiculos da unidade
  - 21 - Remover pets da unidade
  - 22 - Listar reservas de areas comuns
- - 23 - Fazer reserva uma area comum
+ - 23 - Fazer reserva em uma area comum
  - 24 - Listar dias que as areas comuns estão sem funcionar
  - 25 - Listar horario de funcionamento da area comum
- - 26 - Listar suas reservas
+ - 26 - Listar minhas reservas
  - 27 - Deletar minha reserva
 
 
