@@ -26,7 +26,7 @@
  - 1 - Login
  - 2 - Register
  - 3 - Validat Token JWT
- - 4 - logout
+ - 4 - Logout
  - 5 - Listar Avisos
  - 6 - Dar Like em Aviso
  - 7 - Listar Documentos
