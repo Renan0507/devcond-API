@@ -1,65 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1 align="center">:house_with_garden: DevsCond API :house_with_garden:</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p align="center">O Devscond API se trata de uma API desenvolvida em laravel para ser utilizado no sistema devscond, o mesmo se trata de um sistema de gerenciamento de condominio desenvolvido para praticar o conhecimento adquirido em cursos de Laravel.</p>
 
-## About Laravel
+## :camera: Demonstração
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<div align="center" >
+  <img src=""><br/><br/>
+  <img src=""><br/><br/>
+  <img src=""><br/><br/>
+  <img src=""><br/><br/>
+</div><br/>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## :tv: Video Demonstrativo
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<a href="">
+  <img src="link video demonstrativo"/>
+</a>
 
-## Learning Laravel
+# Repositorio do Front-End
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### - [WEB](link front end)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Funcionalidades
 
-## Laravel Sponsors
+ - 1 - Login
+ - 2 - Register
+ - 3 - Validat Token JWT
+ - 4 - logout
+ - 5 - Listar Avisos
+ - 6 - Dar Like em Aviso
+ - 7 - Listar Documentos
+ - 8 - Listar Avisos
+ - 9 - Adicionar Aviso
+ - 10 - Adicionar Imagem pro aviso
+ - 11 - Listar Boletos
+ - 12 - Listar Achados e perdidos
+ - 13 - Inserir Achados e perdidos
+ - 14 - Atualizar um Achado e perdido
+ - 15 - Pegar informações da unidade
+ - 16 - Adicionar pessoas a unidade
+ - 17 - Adicionar veiculos a unidade
+ - 18 - Adicionar pets a unidade
+ - 19 - Remover pessoas da unidades
+ - 20 - Remover veiculos da unidade
+ - 21 - Remover pets da unidade
+ - 22 - Listar reservas de areas comuns
+ - 23 - Fazer reserva uma area comum
+ - 24 - Listar dias que as areas comuns estão sem funcionar
+ - 25 - Listar horario de funcionamento da area comum
+ - 26 - Listar suas reservas
+ - 27 - Deletar minha reserva
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+# Rotas
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+  - 1 - /auth/login - POST
+ - 2 - /auth/register - POST
+ - 3 - /auth/validate - POST
+ - 4 - /auth/logout - POST
+ - 5 - /walls - GET
+ - 6 - /wall/{id}/like - POST
+ - 7 - /docs - GET
+ - 8 - /warnings - GET
+ - 9 - /warning - POST
+ - 10 - /warning/file - POST
+ - 11 - /billets - GET
+ - 12 - /foundandlost - GET
+ - 13 - /foundandlost - POST
+ - 14 - /foundandlost/{id} - PUT
+ - 15 - /unit/{id} - GET
+ - 16 - /unit/{id}/addperson - POST
+ - 17 - /unit/{id}/addvehicle - POST
+ - 18 - /unit/{id}/addpet - POST
+ - 19 - /unit/{id}/removeperson - POST
+ - 20 - /unit/{id}/removevehicle - POST
+ - 21 - /unit/{id}/removepet - POST
+ - 22 - /reservations - GET
+ - 23 - /reservation/{id} - POST
+ - 24 - /reservation/{id}/disableddates - GET
+ - 25 - /reservation/{id}/time - GET
+ - 26 - /myreservations - GET
+ - 27 - /myreservation/{id} - DELETE
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## 🚀 Tecnologias
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- ✔️ Laravel
 
-## License
+- ✔️ JWT
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- ✔️ Routes
+
+- ✔️ Storage
+
+- ✔️ Middlewares
+
+- ✔️ Routes
+
+
+## ⚙ Configuração via Composer
+
+1- Para instalar o Laravel:
+> composer global require laravel/installer
+
+2- Para iniciar a aplicação:
+> php artisan serve
+
+
+
+Feito com 💜 por RENAN CAVALCANTE 👋 [Veja meu Linkedin](https://www.linkedin.com/in/renanweb/)
+<br>
